@@ -1,0 +1,177 @@
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF UI Text';
+    src: url("https://d33wubrfki0l68.cloudfront.net/7f5efbefa73e3ee486c502b66fb9200e108ad047/cbb2f/fonts/sf-ui-text-heavy.woff") format('woff');
+    font-display: swap;
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'SF UI Text';
+    src: url("https://d33wubrfki0l68.cloudfront.net/ecc2177145d53dcd3f567531af3e9557fb211d3b/4faff/fonts/sf-ui-text-regular.woff") format('woff');
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'SF UI Text';
+    src: url("https://d33wubrfki0l68.cloudfront.net/8036012d5d6add8a4bad0ea000696eaaa65f48e8/b349c/fonts/sf-ui-text-bold.woff") format('woff');
+    font-display: swap;
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'SF UI Text';
+    src: url("https://d33wubrfki0l68.cloudfront.net/e8020de2a082b7f99bd455cd96d87d90e5104367/809fe/fonts/sf-ui-text-light.woff") format('woff');
+    font-display: swap;
+    font-style: normal;
+    font-weight: 200;
+}
+
+.s-home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #000068 70%, #c786ff 70%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 0px 100px;
+    height: 550px;
+}
+
+.second-home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #4829f9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 0px 100px;
+    height: 550px;
+}
+
+
+.left-div {
+    flex: 1;
+    padding: 30px;
+    margin-right: 20px;
+}
+
+
+#home-text h1 {
+    font-family: 'SF UI Text';
+    font-size: 60px;
+    color: #80fc9f;
+}
+
+#home-text p {
+    font-family: 'Archivo Black';
+    font-size: 15px;
+    color: white;
+}
+
+
+
+.right-div {
+    margin-top: 145px;
+}
+
+#creator-photo img {
+    margin-bottom: 8px;
+    background-color: #7248fb;
+    width: 400px;
+}
+
+#delorean-photo img {
+    margin-bottom: 8px;
+    width: 400px;
+}
+
+#s-about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #4829f9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 0px 100px;
+    height: 550px;
+}
+
+
+.about-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-header h3 {
+    font-size: 42px;
+    color: #80fc9f;
+    margin-bottom: 10px;
+}
+
+.about-header h2 {
+    font-size: 28px;
+    color: rgb(135, 219, 215);
+    margin-bottom: 10px;
+}
+
+.about-header h3.subtitle {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.footer-text {
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer-text a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer-text a:hover {
+    text-decoration: underline;
+}
+
+.footer-author {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.second-home .right-div {
+    padding: 70px;
+    margin-bottom: 130px;
+}
