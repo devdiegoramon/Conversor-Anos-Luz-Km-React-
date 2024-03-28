@@ -138,10 +138,6 @@ nav .login-button {
   cursor: pointer;
 }
 
-.resultados {
-  max-width: 600px;
-}
-
 .resultados table {
   width: 100%;
   border-collapse: collapse;
